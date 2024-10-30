@@ -27,14 +27,11 @@ console.log(isTrue);
 let isTrue2 = 1 === "1";
 console.log(isTrue2);
 // !=
-let fakeBigInt = BigInt(0xffffff);
-console.log("fakeBigInt: ", fakeBigInt);
-let bigInt = 0xffffffn;
-console.log("bigInt: ", bigInt);
 
 // !==
 let intake = prompt("enter 2 of string type: ");
-console.log(intake !== "2");
+let newIntake = parseInt(intake);
+console.log(newIntake === 2);
 
 // >
 
